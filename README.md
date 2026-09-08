@@ -1,7 +1,7 @@
 # stevec-org
 
 ```bash
-python3 -m http.server 8000 --directory public_html
+python3 -m http.server 8000 --directory docs
 ```
 
 ## To generate `index.html` for folders of files
