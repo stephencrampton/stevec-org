@@ -1,0 +1,21 @@
+/* facpics.css */
+body	{
+	font-family: sans;
+	color: navy;
+	background-color: rgb(128,128,128);
+	text-align: center;
+	}
+h1	{
+	color: maroon;
+	margin-bottom: 6pt;
+	}
+h2	{
+	color: darkgreen;
+	margin-bottom: 4pt;
+	}
+p	{
+	text-align: left;
+	}
+img	{
+	border: 6px 6px 6px 6px;
+	}

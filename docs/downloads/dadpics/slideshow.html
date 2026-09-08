@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+     <title>Dad Pics Slideshow (last updated Jan 28, 2010)</title>
+  <link rel="stylesheet" type="text/css" href="pics.css">
+  <script language="javascript">
+    <!-- Hide script from old browsers
+    var theImages = new Array(
+                              "slides/slide-_FL_62.jpg",
+                              "slides/slide-DadAndKids.jpg",
+                              "slides/slide-20090214_Vero_042.jpg",
+                              "slides/slide-20090214_Vero_040.jpg",
+                              "slides/slide-20090214_Vero_035.jpg",
+                              "slides/slide-20090214_Vero_012.jpg",
+                              "slides/slide-20081126_JaxDinner_011.jpg",
+                              "slides/slide-20071223_Xmas_014.jpg",
+                              "slides/slide-20061125_MVY_87.jpg",
+                              "slides/slide-2005Thanksgi000.jpg"
+                              )
+    var thisPic = 0
+    function startcycle() {
+      if (document.images) {
+        setTimeout("cycle()", 5000)
+      }
+    }
+    function cycle() {
+      thisPic++
+      if (thisPic >= 10) {
+        thisPic = 0
+      }
+      document.thePic.src = theImages[thisPic]
+      setTimeout("cycle()", 5000)
+    }
+    // End hiding script from old browsers -->
+  </script>
+</head>
+<body onload="startcycle()">
+  <img src="slides/slide-_FL_62.jpg" name="thePic" width=1008 height=660>
+</body>
+</html>
