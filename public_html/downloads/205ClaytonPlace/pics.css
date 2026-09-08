@@ -1,0 +1,26 @@
+body	{
+		background-color: rgb(127,127,127);
+		text-align: center;
+		}
+h1	{
+		margin: 0;
+		text-align: center;
+		color: Navy;
+		}
+h2	{
+		margin: 0;
+		text-align: center;
+		}
+h3	{
+		margin: 3px;
+		text-align: center;
+		}
+a		{
+		color: Black;
+		}
+a:hover	{
+		color: Blue;
+		}
+.pic	{
+		margin: 10px;
+		}
